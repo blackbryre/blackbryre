@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(black.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 25px 0;
+    justify-content: right;
+    align-items: center;
+    border: 2px solid blue;
+    background-color: aquamarine;
+}
+.logo img{
+    width: 10%;
+    padding-right: 400px;
+}
+.navbar ul li{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    list-style-type: none;
+    margin: 0 20px;
+}
+.nav-links ul{
+    list-style: none;
+    display: inline-block;
+    padding: 8xp 12px;
+    position: relative;
+}
